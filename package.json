@@ -1,0 +1,27 @@
+{
+  "name": "@scott/react-cli",
+  "version": "0.0.1",
+  "description": "Cli to easily create react pieces",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottglenblanch/react-cli.git"
+  },
+  "keywords": [
+    "React",
+    "Cli"
+  ],
+  "author": "Scott Blanch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottglenblanch/react-cli/issues"
+  },
+  "homepage": "https://github.com/scottglenblanch/react-cli#readme",
+  "dependencies": {
+    "jest": "^25.1.0",
+    "replace-string": "^3.0.0"
+  }
+}
