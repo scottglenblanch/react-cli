@@ -1,9 +1,7 @@
 const getFileContent = require('./GetFileContent');
 
-describe('should return correct string', () => {
-  it('', () => {
-    const name = 'ContainerComponent';
+it('getFileContent should return a string', () => {
+  const name = 'ContainerComponent';
 
-    expect(typeof getFileContent(name)).toBe('string');
-  });
+  expect(typeof getFileContent(name)).toBe('string');
 });
