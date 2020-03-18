@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Cli to easily create react pieces",
   "main": "index.js",
+  "bin": {
+    "react-cli": "./bin/index.js"
+  },
   "scripts": {
     "test": "jest"
   },
